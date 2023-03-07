@@ -1,0 +1,26 @@
+.cover__title {
+  max-width: 560px;
+  margin: 0 auto 32px ;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+/* вертикальный планшет 768 - 1023 */
+@media screen and (max-width: 1023px){
+  .cover__title {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0 auto 24px ;
+  }
+}
+
+/* вертикальный телефон 0 - 767 */
+@media screen and (max-width: 767px){
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 16px ;
+  }
+}

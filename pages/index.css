@@ -1,0 +1,48 @@
+/* Подключение основных настроек */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+/* Подключение стилей раздела - заголовок */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+/* Подключение стилей секции lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__images/lead__images.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
+@import url(../blocks/lead/__figcaption/lead__figcaption.css);
+/* Подключение стилей секции intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__description/intro__description.css);
+@import url(../blocks/intro/__stat/intro__stat.css);
+@import url(../blocks/intro/__stat-data/intro__stat-data.css);
+/* Подключение стилей секции gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+/* Подключение стилей секции places */
+@import url(../blocks/places/places.css);
+/* Подключение стилей блока place */
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__site/place__site.css);
+@import url(../blocks/place/__site-name/place__site-name.css);
+@import url(../blocks/place/__site-link/place__site-link.css);
+@import url(../blocks/place/__images/place__images.css);
+@import url(../blocks/place/__description/place__description.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+/* Подключение стилей секции cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__description/cover__description.css);
+@import url(../blocks/cover/__wrapper/cover__wrapper.css);
+/* Подключение стилей блока footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__items/footer__items.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__author/footer__author.css);

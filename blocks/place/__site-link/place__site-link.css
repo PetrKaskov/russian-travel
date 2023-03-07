@@ -1,0 +1,14 @@
+.place__site-link {
+  color: #FFF;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: none;
+  border-bottom: 1px solid #FFF;
+  transition: opacity 0.4s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+.place__site-link:hover {
+  opacity: 0.8;
+}

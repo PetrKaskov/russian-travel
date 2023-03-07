@@ -1,0 +1,36 @@
+.gallery {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  box-sizing: border-box;
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto 92px ;
+  padding: 0;
+  gap: 16px;
+}
+/* горизонтальный планшет 1024 - 1279 */
+@media screen and (max-width: 1279px) {
+  .gallery {
+    grid-template-columns: repeat(3, 300px);
+    gap: 14px;
+  }
+}
+/* вертикальный планшет 768 - 1023*/
+@media screen and (max-width: 1023px) {
+  .gallery {
+    width: calc(100% - 48px);
+    grid-template-columns: repeat(2, 352px);
+    margin: 0 auto 88px ;
+    gap: 16px;
+  }
+}
+/* вертикальный телефон 0 - 767 */
+@media screen and (max-width: 767px) {
+  .gallery {
+    width: calc(100% - 32px);
+    grid-template-columns: 100%;
+    margin: 0 auto 64px ;
+    gap: 12px;
+  }
+}

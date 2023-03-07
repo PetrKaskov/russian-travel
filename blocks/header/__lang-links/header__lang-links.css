@@ -1,0 +1,8 @@
+.header__lang-links {
+  display: flex;
+  align-self: flex-end;
+  column-gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 6px 0;
+}

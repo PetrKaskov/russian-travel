@@ -1,0 +1,23 @@
+.cover__description {
+  max-width: 360px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto;
+}
+
+/* вертикальный планшет 768 - 1023 */
+@media screen and (max-width: 1023px) {
+  .cover__description {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+/* вертикальный телефон 0 - 767 */
+@media screen and (max-width: 767px) {
+  .cover__description {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

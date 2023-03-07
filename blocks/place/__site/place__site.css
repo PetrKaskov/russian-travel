@@ -1,0 +1,10 @@
+.place__site {
+  align-self: end;
+}
+
+/* вертикальный телефон 0 - 767 */
+@media screen and (max-width: 767px) {
+  .place__site {
+    margin: 0 16px 0;
+  }
+}
