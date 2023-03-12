@@ -14,7 +14,6 @@
 /* вертикальный телефон 0 - 767 */
 @media screen and (max-width: 767px) {
   .intro__description {
-    max-width: 288px;
     margin: 0 0 34px ;
   }
 }

@@ -2,8 +2,9 @@
   max-width: 176px;
 }
 /* вертикальный телефон 0 - 767 */
-@media screen and (max-width: 767) {
+@media screen and (max-width: 767px) {
   .header__logo {
     max-width: 142px;
+    height: 42px;
   }
 }
