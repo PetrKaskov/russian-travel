@@ -5,14 +5,6 @@
   margin: 0 auto;
 }
 
-/* вертикальный планшет 768 - 1023 */
-@media screen and (max-width: 1023px) {
-  .cover__description {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
 /* вертикальный телефон 0 - 767 */
 @media screen and (max-width: 767px) {
   .cover__description {
